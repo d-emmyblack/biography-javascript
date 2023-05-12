@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIOGRAPHY</title>
+    <link rel="stylesheet" href="bio.css">
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="DE.png" alt="#" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Hire me</a></li>
+            </ul>
+        </nav>
+        <div class="details">
+            <h1>I'm Emmanuel <span>David</span></h1>
+            <p>This is my official portfolio website to show <br>
+                all my work experiences.
+            </p>
+        
+        </div>
+        <div class="images">
+            <img src="MY PASSPORT PNG.png" class="man">
+
+        </div>
+    </div>
+    <div>
+        <div class="about" id="mine">
+            <h1> I am currently learning HTML and CSS</h1>
+        </div>
+        <button onclick="changeText()" class="btn">Update Me</button>
+    </div>
+    <script>
+        function changeText(){
+            let mineDiv = document.getElementById("mine");
+            mineDiv.innerHTML ="I am currently learning Javascript";
+            mineDiv.style.fontSize = "40px";
+            mineDiv.style.fontWeight = "bolder";
+        }
+    </script>
+        
+
+
+
+        <footer id="foot">
+            <div id="icon-down">
+                <a href="https://facebook.com"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://twitter.com/d_emmyblack?s=09"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/david-emmanuel-damilare-310545197"><i class="fa-brands fa-linkedin"></i> </a> <br>
+            </div> 
+                <small>Copyright &copy 2023 emmyblack.com 
+                | operated by TIIDELab Privacy Policy 
+                | Site Terms & Disclosures. Hosted by emmyblack</small>
+        </footer>
+    
+    
+</body>
+</html>
